@@ -44,7 +44,7 @@ public class AccountsController {
             description = "HTTP Status CREATED"
     )
     @PostMapping("/create")
-    private ResponseEntity<ResponseDto> createAccount(@Valid @RequestBody CustomerDto customerDto){
+    public ResponseEntity<ResponseDto> createAccount(@Valid @RequestBody CustomerDto customerDto){
 
         iAccountsService.createAccount(customerDto);
 
