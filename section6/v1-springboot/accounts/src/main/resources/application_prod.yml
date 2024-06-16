@@ -1,0 +1,16 @@
+spring:
+  config:
+    activate:
+      on-profile: "prod"
+
+build:
+  version: "1.0"
+
+accounts:
+  message: "Welcome to EazyBank accounts related Prod APIs "
+  contactDetails:
+    name: "Ujjwal K - Product Owner"
+    email: "ujjwal@eazybank.com"
+  onCallSupport:
+    - (453) 555-1234
+    - (324) 523-1345
